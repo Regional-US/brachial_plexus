@@ -1,0 +1,16 @@
+vid_name,nerve,frame_cnt,needle,gac_iter
+s005,sc,100,,2
+s071,sc,160,yes,3
+s117,sc,223,yes,3
+s123,sc,180,yes,4
+s187,sc,120,,4
+s210,sc,216,,3
+s311,sc,114,yes,3
+s356,sc,120,,3
+s654,sc,260,yes,3
+s683,sc,124,yes,3
+s753,sc,261,,3
+s845,sc,50,,3
+s852,sc,120,,3
+s888,sc,18,,6
+s963,sc,120,,5
