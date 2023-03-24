@@ -1,0 +1,3 @@
+ - The keys in json are the frame numbers of corresponsing video file
+ - The "start" is needle tip coordinates
+ - The "stop" is needle tail coordinates (near skin)
