@@ -1,12 +1,8 @@
-# Brachial Plexus Nerve Segmentation
+# Needle Guidance for Autonomus UGRA
 
-Data for the accompanying papers:
+Data for the accompanying paper:
 
-"*Automated Real Time Delineation of Supraclavicular Brachial Plexus in Neck Ultrasonography Videos: A Deep Learning Approach*", Submitted to Nature Scientific Reports [(Manuscript Link)](./Manuscript_v2_wo_names.pdf)
-
-and 
-
-"*Towards Autonomous Robotic Ultrasound Guided Regional Anesthesia using Real Time Needle Localization and Trajectory Extrapolation*", Submitted to ICRA-RAMI
+"*Nerve Block Target Localization and Needle Guidance for Autonomous Robotic Ultrasound Guided Regional Anesthesia*", Submitted to IROS-2024
 
 ### Dataset
 We share a deidentified set of 227 ultrasound videos of brachial plexus region and their ground truth annotations.
@@ -16,11 +12,19 @@ We share a deidentified set of 227 ultrasound videos of brachial plexus region a
 - Needle annotations available in `data/Sonosite/needle/` folder.
 - These deidentified videos are shared with a non-commerical data use agreement.
 
-### Examples
+### Demo Examples
 
-We show examples of supraclavicular brachial plexus segmentation for three distinct frequency gain settings in ultrasound.
+Needle Trajectory guidance towards regional anesthesia target:
+ - Green: The needle trajectory intersects with the target anesthesia region
+ - Yellow: The trajectory is between the anesthesia targets
+ - Red: The trahectory misses the anesthesia targets
+
+![](./other/needle_trajectory.gif)
+
+
+Supraclavicular brachial plexus segmentation for three distinct frequency gain settings in ultrasound.
 - Red contours are ground truth annotated by expert anesthetists
-- Blue masks are predictions by DeepLabv3 neural network
+- Blue masks are predictions by the neural network
 
 High Gain             |  Medium Gain          |  Low Gain
 :-------------------------:|:-------------------------:|:-------------------------:
